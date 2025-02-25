@@ -8,9 +8,9 @@ caso, a comissão será de 7%. Escreva um algoritmo que gere um relatório
 contendo nome, valor da venda e comissão de cada um dos corretores. O 
 relatório deve mostrar também o total de vendas da empresa. 
 
-ENTRADA:
-PROCESSAMENTO:
-SAIDA:
+ENTRADA: nome dos corretores e valores da venda
+PROCESSAMENTO: calcular a comissao de acordo com o valor da venda
+SAIDA: nome dos corretores, comissão, relatorio
 */
 
 #include <stdio.h>
