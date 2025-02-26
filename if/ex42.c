@@ -21,6 +21,12 @@ int main(){
     float percentualDesconto2 = 0;
     float percentualDesconto3 = 0;
     float percentualDesconto4 = 0;
+    float precoComDesconto1 = 0;
+    float precoComDesconto2 = 0;
+    float precoComDesconto3 = 0;
+    float precoComDesconto4 = 0;
+    float total = 0; 
+
 
     printf("Digite o nome do primeiro artigo: \n");
     scanf("%s", item1);
@@ -57,6 +63,52 @@ int main(){
 
     printf("Digite a quantidade de desconto do quarto artigo: ");
     scanf("%f", &percentualDesconto4);
+
+
+    if(percentualDesconto1 > 0) {
+        precoComDesconto1 = preco1 - (preco1 * percentualDesconto1 / 100);
+    } else {
+        precoComDesconto1 = preco1;
+    }
+
+    if(percentualDesconto2 > 0) {
+        precoComDesconto2 = preco2 - (preco2 * percentualDesconto1 / 100);
+    } else {
+        precoComDesconto2 = preco2;
+    }
+
+    if(percentualDesconto3 > 0) {
+        precoComDesconto3 = preco3 - (preco3 * percentualDesconto3 / 100);
+    } else {
+        precoComDesconto3 = preco3;
+    }
+
+    if(percentualDesconto4 > 0) {
+        precoComDesconto4 = preco4 - (preco4 * percentualDesconto4 / 100);
+    } else {
+        precoComDesconto4 = preco4;
+    }
+
+
+    printf("Artigo 1: %s\n", item1);
+    printf("Preco original: R$ %.2f\n", preco1);
+    printf("Preco com desconto: R$ %.2f\n", precoComDesconto1);
+    total += precoComDesconto1;
+
+    printf("Artigo 2: %s\n", item2);
+    printf("Preco original: R$ %.2f\n", preco2);
+    printf("Preco com desconto: R$ %.2f\n", precoComDesconto2);
+    total += precoComDesconto2;
+
+    printf("Artigo 3: %s\n", item3);
+    printf("Preco original: R$ %.2f\n", preco3);
+    printf("Preco com desconto: R$ %.2f\n", precoComDesconto3);
+    total += precoComDesconto3;
+
+    printf("Artigo 4: %s\n", item4);
+    printf("Preco original: R$ %.2f\n", preco4);
+    printf("Preco com desconto: R$ %.2f\n", precoComDesconto4);
+    total += precoComDesconto4;
 
     
 }
