@@ -35,11 +35,4 @@ int main(){
         printf("A soma de A com B e igual a C \n");
     }
 
-
-
-
-
-
-
-
 }
