@@ -42,6 +42,4 @@ int main(){
         printf("Conta eutourada!"); 
     }
 
-
->>>>>>> d75d9d1aa9c0bf8d6750bf52ea6c2b2f0bc592a3
 }
