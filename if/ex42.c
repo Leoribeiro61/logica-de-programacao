@@ -8,6 +8,8 @@ PROCESSAMENTO: calcular o percentual de desconto
 SAIDA: preço com desconto de cada item e o valot total a pagar
 */
 
+#include <stdio.h>
+
 int main(){
     char item1[50];
     char item2[50];

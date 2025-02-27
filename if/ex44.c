@@ -9,6 +9,8 @@ PROCESSAMENTO: calcular a quantidade vendida e o total arrecadado
 SAIDA: quandidade vendida e valor arrecadado
 */
 
+#include <stdio.h>
+
 int main(){
     int picole1 = 0;
     int picole2 = 0;

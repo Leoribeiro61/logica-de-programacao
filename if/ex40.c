@@ -10,6 +10,7 @@ ENTRADA: nome do cliente, quantidade de parafusos, porcas e arruelas, preço
 PROCESSAMENTO: fazer o calculo para saber a quantidade de desconto de acordo com a quantidade comprada
 SAIDA: quantidade de itens comprados, o valor de desconto e o valor total da compra 
 */
+#include <stdio.h>
 
 int main(){
     char nome[100];

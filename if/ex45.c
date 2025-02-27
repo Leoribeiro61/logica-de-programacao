@@ -10,6 +10,7 @@ SAIDA: o saldo atual da conta
 
 hqerherhqe
 */
+#include <stdio.h>
 
 int main(){
     int numeroConta = 0;

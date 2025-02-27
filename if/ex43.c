@@ -19,6 +19,8 @@ PROCESSAMENTO: calcular a quantidade de aumento de cada funcionario
 SAIDA: salario reajustado de cada empregado
 */
 
+#include <stdio.h>
+
 int main(){
     char nome[50];
     char categoria;

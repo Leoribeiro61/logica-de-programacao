@@ -8,6 +8,7 @@ PROCESSAMENTO: fazer o calculo para saber o salario de cada vendedor apos a comi
 SAIDA: salario total do vendedor
 
 */
+#include <stdio.h>
 
 int main(){
     int carrosVendidos = 0;
