@@ -1,6 +1,11 @@
 /*
 91. Faça um algoritmo que imprima todos os números pares compreendidos entre
 85 e 907. O algoritmo deve também calcular a soma destes valores.
+
+ENTRADA:
+PROCESSAMENTO:
+SAIDA:
+
  */
 
 public class exercicio91 {

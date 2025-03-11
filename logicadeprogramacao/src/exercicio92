@@ -1,0 +1,39 @@
+/*
+92. Faça um algoritmo que calcule o valor de A, dado por:
+
+, onde N é um número inteiro positivo.
+
+ENTRADA:
+PROCESSAMENTO:
+SAIDA:
+
+ */
+
+/*import java.util.Scanner;
+
+public class exercicio92 {
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Digite um valor para 'N' que seja inteiro e positivo: ");
+        int n = scanner.nextInt();
+
+        if(n <= 0){
+            System.out.println("'N' de ser um número positivo e inteiro ");
+        }
+
+        double a = calcularA(n);
+
+        System.out.println("O valor de 'A' é: "+ a);
+
+        public static double calcularA (int n){
+            double a = 0;
+
+            for(int i = 1; i <= n; i++){
+                a += (double) (n - i + 1) / i;
+            }
+            return a;
+        }
+    }
+}
+*/
