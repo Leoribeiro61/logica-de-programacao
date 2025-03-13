@@ -28,11 +28,10 @@ public class exercicio95 {
             double altura = scanner.nextDouble();
         }
 
-        if(altura < 1.70){
-
+       /* if(altura < 1.70){
         }
 
-
+*/
 
 
 
